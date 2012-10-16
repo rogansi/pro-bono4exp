@@ -1,0 +1,20 @@
+<div id = "proControl">
+	<button type = "button" onclick = 'newProject()'>New Project</button>
+	<form id = "newFile">
+		<label>New Project:</label><br />
+		<input id = "newProj" style = "width: 125px" type = "text" />
+		<button type = "button" onclick = 'startProject()'>Create</button>
+	</form>
+	
+	<button type = "button" onclick = 'pickProject()'>Old Project</button>
+	<br />
+	<form id = "oldFile">
+		<label>Choose Project</label>
+	    <select id = "dirFind" onchange = 'edify()'>
+	    	<div id = "projList">
+	    		
+	    	</div>
+	    </select>
+		<button type = "button" onclick = 'startProject()'>Add Images</button>
+	</form>
+</div>

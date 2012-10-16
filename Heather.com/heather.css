@@ -1,0 +1,243 @@
+*{
+  margin: 0px;
+  padding: 0px;	
+}
+html, body{
+	height: 100%;
+	background-color: #999999;
+}
+@font-face{
+	font-family: derivia;
+	src: url('myFonts/Derivia.ttf'), url('myFonts/Derivia.eot');
+}
+@font-face{
+	font-family: headline;
+	src: url('myFonts/EuropeUnderground_light.ttf'), url('myFonts/EuropeUnderground_light.eot');
+}
+@font-face{
+	font-family: heather;
+	src: url('myFonts/RAGE.ttf'), url('myFonts/RAGE.eot');	
+}
+.contact{
+	text-align: center;
+}
+#topNav{
+	position: absolute;
+	background-image: url('pics/topNav.png');
+	width: 1082px;
+	height: 45px;
+	top: 235px;
+}
+#all{
+	position: relative;
+	margin: auto;
+	width: 1085px;
+	min-height: 900px;
+	height: auto;
+}
+#banner{
+	position: relative;
+	width: 1082px;
+	height: 247px;
+}
+#otherMedia{
+	position: absolute;
+	width: 175px;
+    height: 320px;
+    top: 310px;
+    left: 810px;
+}
+#otherMedia img{
+	margin-left: 45px;
+	margin-top: 7px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+#otherMedia img:hover{
+opacity: .5;
+}
+#bannerWord{
+	position: relative;
+	height: 165px;
+	top: 50px;
+	width: 1082px;
+	font-family: headline;
+	font-size: 750%;
+	text-align: center;
+}
+#contact{
+	position: relative;
+	top: 270px;
+	margin-bottom: 0px;
+	height: 35px;
+}
+#nav{
+	position: absolute;
+	top: 300px;
+	width: 250px;
+	height: 500px;
+}
+#nav div{
+	height: 60px;
+	width: 250px;
+	margin-bottom: 25px;
+}
+#nav div:hover{
+	cursor:pointer;
+	opacity: .75;
+}
+#outPut{
+	position: relative;
+	left: 280px;
+	top: 60px;
+	width: 800px;
+	min-height: 300px;
+	padding-bottom: 3px;
+	height: auto;
+}
+#writtenIntro{
+	position: absolute;
+	top: 5px;
+	width: 505px;
+	min-height: 200px;
+	height: auto;
+	background-color: #cccccc;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px black solid;
+    
+}
+#writtenIntro .title{
+	font-size: 250%;
+	font-family: derivia;
+	text-align: center;
+}
+#writtenIntro .tellMe{
+	text-indent: 20px;
+	font-family: derivia;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/**************  Rules for the artDisplay ************/
+#artwork{
+	position: relative;
+	top: 220px;
+	width: 500px;
+	height: auto;
+	display: none;
+}
+#opening{
+	position: relative;
+	background-image: url('makeup/weddings/weddings.JPG');
+	top: 10px;
+	left: 5px;
+	width: 500px;
+	height: 340px;
+	display: none;
+}
+#makeup2{
+	position: relative;
+	top: 220px;
+	width: 500px;
+	height: auto;
+	display: none;
+}
+#clothing{
+	position: relative;
+	top: 220px;
+	width: 500px;
+	height: auto;
+	display: none;
+}
+#artDisplay{
+	position: relative;
+	width: 500px;
+	height: auto;
+	top: 0px;
+}
+#artDisplay h2{
+	font-family: heather;
+	text-align: center;
+	width: 500px;
+}
+#artDisplay img{
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+#artDisplay h2:hover{
+	color: red;
+	cursor: pointer;
+}
+.hiddenArt{
+	display: none;
+}
+.hiddenArt img{
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px black solid;
+}
+.hiddenArt img:hover{
+	cursor: pointer;
+}
+.para{
+	width: 500px;
+	text-align: center;
+	font-family: derivia;
+	font-size: 200%;
+}
+#heathMin{
+	position: absolute;
+	left: 200px;
+	width: 800px;
+	height: 550px;
+}
+#button{
+	 padding: .5em 1em;
+	 text-decoration: none; 
+}
+#newProject{
+	position: absolute;
+	width: 150px;
+	height: 550px;
+}
+#newFile{
+	display: none;
+}
+#oldFile{
+	display: none;
+}
+#projChoice{
+	display: none;
+}
+#uploadPics{
+	display: none;
+}
+#proControl button{
+	width: 125px;
+	margin-bottom: 10px;
+}
+.portrait{
+	display: inline;
+	padding: 10px;
+}
+.portrait img:hover{
+	height: 160px;
+	width: 160px;
+}
+.portrait img{
+	-moz-border-radius: 7px;
+    border-radius: 7px;
+    border: 2px black solid;
+}
+.portraitB img{
+	-moz-border-radius: 7px;
+    border-radius: 7px;
+    border: 2px black solid;
+}
+.portraitB{
+	text-align: center;
+}
